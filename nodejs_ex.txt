@@ -1,0 +1,45 @@
+1: Open edge/chrome any browser.
+2: Type "http://nodejs.org/en/download/" ----- download the ".msi" file/zip folder.
+
+3:
+   3.1: if zip folder --- extracting and some process is there...etc
+   3.2: if it ".msi" file
+          3.2.1: then Go to Your downloads select the file.
+          3.2.2: double click on the ".msi" file -----> it will install the "nodejs".
+                 |
+                 |-------------> if we re direct to VScode then
+                                                      |
+                                                      |_____________-->1) Right click on the ".msi" file then 
+                                                                                                          |
+                                                                                                          |--------->select "Open with" 
+                                                                                                                                |__________--> Windows installer.
+4: After installation (do next or select according to our intrest).
+5: Just go to Command prompt type "node -v" to know the version or we download it or not.
+   
+------ FOR SAMPLE PROJECT / ------
+   1)--------SET UP----------
+
+6: create a folder at your desire place for example:  "cse" at downloads(copy the path).
+
+7: open VScode---
+                |____--> see top menu bar ---> click on "Terminal" ----> select  "New Terminal".
+                |_____--->in new terminal "paste" the copied path example "cd C:\Users\AR\Downloads" (for navigation).
+                |_____--->after paste enter command like "npx create-react-app cse" ----{'cse' it's a folder what we created}.                                                                      
+                |____----> after that... then use command : "cd cse" {chaning our directory to cse}.
+                |_____-----> C:\Users\AR\Downloads\cse {now we are at our folder cse}.
+                |______---> then use command : "npm start"------>is now errors ----> it will open the our default we browser and start development server ==ex: "http://localhost:3000".
+                |______-----> we get "react logo" in web browser for successfully running.
+                                              |________---> If we facing probplem like-----> Error: Cannot find module 'react'   
+                                                                                      |----> node_modules folder is missing, ike start, build, etc.
+                                              |_______---> Then simply give command as "npm install" then give "npm start".
+
+If want to know more then ask our VScode "Edit with Copilot" which avialble.
+
+    2)--------------CODING----------
+
+8: In Vscode project explorer ----> we find our cse folder (that we created before in step 6: ).
+                                                 |____---> clik on "cse" folder (or what ever you created folder).
+                                                 |____---> click on "my-app" folder.
+                                                 |____---> click on "src" folder.
+
+In the src folder we create the ".js" files and ".css" files etc... for writing projects code....
