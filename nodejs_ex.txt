@@ -22,15 +22,15 @@
 6: create a folder at your desire place for example:  "cse" at downloads(copy the path).
 
 7: open VScode---
-                |____--> see top menu bar ---> click on "Terminal" ----> select  "New Terminal".
+                |____--> see top menu bar--->click on "..." and then ---> click on "Terminal" ----> select  "New Terminal".
                 |_____--->in new terminal "paste" the copied path example "cd C:\Users\AR\Downloads" (for navigation).
                 |_____--->after paste enter command like "npx create-react-app cse" ----{'cse' it's a folder what we created}.                                                                      
                 |____----> after that... then use command : "cd cse" {chaning our directory to cse}.
                 |_____-----> C:\Users\AR\Downloads\cse {now we are at our folder cse}.
-                |______---> then use command : "npm start"------>is now errors ----> it will open the our default we browser and start development server ==ex: "http://localhost:3000".
+                |______---> then use command : "npm start"------>if no errors ----> it will open the our default we browser and start development server ==ex: "http://localhost:3000".
                 |______-----> we get "react logo" in web browser for successfully running.
                                               |________---> If we facing probplem like-----> Error: Cannot find module 'react'   
-                                                                                      |----> node_modules folder is missing, ike start, build, etc.
+                                                                                      |----> node_modules folder is missing, like start, build, etc.
                                               |_______---> Then simply give command as "npm install" then give "npm start".
 
 If want to know more then ask our VScode "Edit with Copilot" which avialble.
