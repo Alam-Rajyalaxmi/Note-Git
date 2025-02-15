@@ -1,0 +1,66 @@
+1: Go to desktop ---> right click --> "Open in terminal".
+2: paste the command like "npm create vite@latest" or inplace of  latest you can give the vite version also. 
+                                       |
+                                       >>>> this command is used for set up the project like give Name, install Dependencies, frameworks etc..
+3: Once entered the command  > npx
+                             > create-vite
+
+                         >> then it asks 
+
+                         3.1) project name: just enter project name here..(ex: vite_project)
+                         3.2) then give it/ask to select framework like  
+      Vanilla
+      Vue
+    > React
+      Preact
+      Lit
+      Svelte
+      Solid
+      Qwik
+      Angular
+      Others   etc...
+                        3.3) then it ask to select variant like..
+    TypeScript
+    TypeScript + SWC
+  > JavaScript
+    JavaScript + SWC
+    React Router v7 ↗
+
+4: After that change the directory to your created project folder..
+                           (i)  cd vite_project
+                          (ii)  npm install
+                         (iii)  npm run dev
+            4.1)   PS C:\Users\AR\Desktop> cd vite_project   //example
+                   PS C:\Users\AR\Desktop\vite_project>      //example
+            4.2) After that use command which is given at (ii) like...  PS C:\Users\AR\Desktop\vite_project>  npm install (press enter key) then
+                                                           |
+                                                           |----------->after the command then it will install some packages for our project..
+       
+            4.3)    ...       then use the command ----> (iii)  to run.... 
+                                                           |
+                                                           |------------> once enter the command "npm run dev" it will give like==
+                                                                                                    |
+                                                                                                    |
+                                                                       vite_project@0.0.0 dev (our project name)
+                                                                     > vite
+
+
+  VITE v6.1.0  ready in 272 ms
+
+  ➜  Local:   http://localhost:5173/ ---------------->jus copy the location " http://localhost:5173/ " and then paste it our browser... then we see the vite+react logo.. 
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help 
+5: Just open your folder with vscode (the folder you reated) which is placed on desktop ..
+6: Once you open the project folder then you can create files and create and write code ...
+           example just for sample not for project 
+                     |  
+                     |------>1) Project open vscode 
+                             2) create a file like webAR.html 
+                             3) in that file write example html code like===
+
+                                                          <html>
+                                                            <h1>Hello! <br>This is AR</h1>
+                                                           </html>
+                    
+                              4) just simply click on run or user command like 'npm run dev' which gives path like 'http://localhost:5173/',,
+                                  then just copy that and paste it any browser to run...  then we can see the output..
